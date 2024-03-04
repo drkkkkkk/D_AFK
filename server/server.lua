@@ -7,7 +7,7 @@ RegisterServerEvent('sendToDiscord')
 AddEventHandler('sendToDiscord', function(playerName)
     local embed = {
         {
-            ["color"] = 65280,
+            ["color"] = Config.AFKStartColor,
             ["title"] = "Player Just Went AFK.",
             ["description"] = "The Player With The Name Of " .. playerName .. " Is Now AFK!",
             ["footer"] = {
@@ -24,7 +24,7 @@ RegisterServerEvent('sendToDiscord2')
 AddEventHandler('sendToDiscord2', function(playerName)
     local embed = {
         {
-            ["color"] = 65280,
+            ["color"] = Config.AFKStopColor,
             ["title"] = "Player Just Came Back From AFK!",
             ["description"] = "The Player With The Name Of " .. playerName .. " Is Now Not AFK!",
             ["footer"] = {
