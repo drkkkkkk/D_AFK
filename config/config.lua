@@ -7,3 +7,6 @@ Config.AFKBack = vector3(151.3788, -1036.1140, 29.3393) -- Area player gets tele
 
 Config.AFKStartCmd = "afkstart"
 Config.AFKStopCmd = "afkstop"
+
+Config.AFKStartColor = 65280 -- (This is Green, It's decimal.)
+Config.AFKStopColor = 16744576 -- (This is Red, It's a decimal.)
