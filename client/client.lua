@@ -33,7 +33,7 @@ RegisterCommand(Config.AFKStartCmd, function(source, args, rawCommand)
                 SetTextDropShadow(0)
                 SetTextOutline(0)
                 SetTextEntry("STRING")
-                AddTextComponentString("You're AFK!")
+                AddTextComponentString(Config.AFKTextMessage)
                 DrawText(0.450, 0.005)
             end
         end
